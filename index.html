@@ -4,38 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WeatherApp</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 10:25, clear sky
+            <br />
+            Humidity: 75%, Wind: 8.05km/h
+          </p>
+        </div>
+        <div>⛅ 12°C</div>
+      </main>
+      <footer>
         <p>
-          Tuesday 10:25, clear sky
-          <br />
-          Humidity: 75%, Wind: 8.05km/h
+          This project was coded by
+          <a href="https://github.com/KlaraIr" target="_blank"
+            >Clara Iribarne</a
+          >
+          and is open-sourced on
+          <a
+            href="https://github.com/KlaraIr/WeatherApp-ClaraI"
+            target="_blank"
+          >
+            GitHub</a
+          >
+          and hosted on
+          <a href="https://weatherappclarai.netlify.app/" target="_blank"
+            >Netlify</a
+          >
         </p>
-      </div>
-      <div>⛅ 12°C</div>
-    </main>
-    <footer>
-      <p>
-        This project was coded by
-        <a href="https://github.com/KlaraIr" target="_blank">Clara Iribarne</a>
-        and is open-sourced on
-        <a href="https://github.com/KlaraIr/WeatherApp-ClaraI" target="_blank">
-          GitHub</a
-        >
-        and hosted on
-        <a href="https://weatherappclarai.netlify.app/" target="_blank"
-          >Netlify</a
-        >
-      </p>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
